@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = merge(common, {
   entry: {
-    app: ['./index.jsx'],
+    app: ['./index.tsx'],
   },
   mode: 'production',
   optimization: {

@@ -2,7 +2,7 @@
   "name": "hello-world-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "webpack-dev-server --open --env.URL_SERVER=localhost --config webpack.dev.js",
     "build": "rimraf dist && webpack --env.URL_SERVER=XXXXXX --config webpack.prod.js",

@@ -1,0 +1,7 @@
+$baseColor: red;
+
+.hello {
+  display: flex;
+  justify-content: center;
+  color: $baseColor;
+}

@@ -2,8 +2,8 @@ import * as React from 'react';
 
 
 export class HeaderComponent extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   render() {

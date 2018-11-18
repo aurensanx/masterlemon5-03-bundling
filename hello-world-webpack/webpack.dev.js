@@ -6,7 +6,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = merge(common, {
   entry: {
-    app: './index.jsx',
+    app: './index.tsx',
   },
   mode: 'development',
   devtool: 'inline-source-map',

@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import "./hello.scss";
+
 
 export class HelloComponent extends React.Component {
   constructor() {
@@ -9,7 +11,7 @@ export class HelloComponent extends React.Component {
   render() {
 
     return (
-      <h2 className="hello">Hello World Webpack!</h2>
+      <h2 className="hello">Hello World Parcel!</h2>
     );
   }
 }

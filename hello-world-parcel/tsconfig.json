@@ -9,6 +9,7 @@
     "sourceMap": true,
     "noLib": false,
     "suppressImplicitAnyIndexErrors": true,
+    "types": ["node"]
   },
   "compileOnSave": false,
   "exclude": [
