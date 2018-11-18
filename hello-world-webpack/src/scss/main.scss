@@ -1,0 +1,13 @@
+@import "theme.scss";
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: $backgroundColor;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  color: $baseColor;
+}
